@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CodeLikeGoat/static/css/main.b68785e3.css",
-    "main.js": "/CodeLikeGoat/static/js/main.289eefe6.js",
+    "main.js": "/CodeLikeGoat/static/js/main.0076f0bb.js",
     "static/js/453.ab3b423f.chunk.js": "/CodeLikeGoat/static/js/453.ab3b423f.chunk.js",
     "index.html": "/CodeLikeGoat/index.html",
     "main.b68785e3.css.map": "/CodeLikeGoat/static/css/main.b68785e3.css.map",
-    "main.289eefe6.js.map": "/CodeLikeGoat/static/js/main.289eefe6.js.map",
+    "main.0076f0bb.js.map": "/CodeLikeGoat/static/js/main.0076f0bb.js.map",
     "453.ab3b423f.chunk.js.map": "/CodeLikeGoat/static/js/453.ab3b423f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b68785e3.css",
-    "static/js/main.289eefe6.js"
+    "static/js/main.0076f0bb.js"
   ]
 }

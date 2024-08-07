@@ -106,7 +106,7 @@ const Navbar = () => {
                         {['Home', 'About', 'Practice DSA', 'Practice Dev', 'Contact'].map((item, index) => (
                             <li key={index} style={liStyle}>
                                 <Link
-                                    to={`/${item.toLowerCase().replace(/ /g, '-')}`}
+                                    to={item === 'Home' ? '/CodeLikeGoat' : `/${item.toLowerCase().replace(/ /g, '-')}`}
                                     style={linkStyle}
                                 >
                                     {item}
@@ -129,7 +129,7 @@ const Navbar = () => {
                     {['Home', 'About', 'Practice DSA', 'Practice Dev', 'Contact'].map((item, index) => (
                         <Link
                             key={index}
-                            to={`/${item.toLowerCase().replace(/ /g, '-')}`}
+                            to={item === 'Home' ? '/CodeLikeGoat' : `/${item.toLowerCase().replace(/ /g, '-')}`}
                             style={drawerLinkStyle}
                         >
                             {item}

@@ -25,31 +25,35 @@ function App() {
 
   return (
     <Router>
-      <>
+      <div className="app-container">
         {isLoading ? (
           <div className="loader-container">
             <BounceLoader color="#00BFFF" size={80} />
             <p>Loading your data, please wait...</p>
           </div>
         ) : (
-          <div>
+          <>
+            {/* Background animations */}
             <Lottie className="bg" animationData={fish} loop={true} />
             <Lottie className="bgtwo" animationData={fish} loop={true} />
             <Lottie className="bgtemp" animationData={fish} loop={true} />
+            
+            {/* Navbar */}
             <Navbar />
+
+            {/* Routes */}
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/CodeLikeGoat" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/practice-dsa" element={<PracticeDsa />} />
-              <Route path="/practice-dav" element={<PracticeDev />} />
+              <Route path="/practice-dev" element={<PracticeDev />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
-          </div>
+          </>
         )}
-      </>
+      </div>
     </Router>
   );
 }
 
 export default App;
-
